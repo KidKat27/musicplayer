@@ -1,0 +1,43 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+/* Audio player styling */
+audio {
+  width: 100%;
+  max-width: 600px; /* Optional: Set a max-width for larger screens */
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+  }
+  .container {
+    margin-bottom: 15px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  audio {
+    max-width: 100%;
+  }
+}
