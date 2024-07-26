@@ -5,6 +5,15 @@ body {
   padding: 0;
 }
 
+h1{
+  color: white;
+}
+
+.Suggest{
+  width: auto;
+  color: rgb(159, 37, 37);
+}
+
 .main-container {
   padding: 20px;
 }
